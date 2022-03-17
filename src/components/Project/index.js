@@ -1,5 +1,5 @@
-import React from "react";
-import { ProjectContainer } from "./ProjectElements";
+import React from 'react';
+import {ProjectContainer} from './ProjectElements';
 
 const Project = () => {
   return (

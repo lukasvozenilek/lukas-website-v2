@@ -1,6 +1,6 @@
-import React from "react";
-import { AboutRow, AboutWrapper, Column1, Column2, Img } from "./AboutElements";
-import { SectionContainer, SectionHeading, SectionP } from "../SectionElements";
+import React from 'react';
+import {AboutRow, AboutWrapper, Column1, Column2, Img} from './AboutElements';
+import {SectionContainer, SectionHeading, SectionP} from '../SectionElements';
 
 const AboutSection = ({lightBg}) => {
   return (

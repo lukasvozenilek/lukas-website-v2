@@ -1,7 +1,7 @@
-import React from "react";
-import { SectionContainer } from "../SectionElements";
-import { ProjectsHeading, ProjectsWrapper } from "./ProjectsElements";
-import Project from "../Project";
+import React from 'react';
+import {SectionContainer} from '../SectionElements';
+import {ProjectsHeading, ProjectsWrapper} from './ProjectsElements';
+import Project from '../Project';
 
 const ProjectSection = ({lightBg}) => {
   return (

@@ -1,12 +1,12 @@
-import React from "react";
-import { SectionContainer } from "../SectionElements";
+import React from 'react';
+import {SectionContainer} from '../SectionElements';
 import {
   ContactHeading,
   ContactWrapper,
   LinkIconWrapper,
-} from "./ContactElements";
-import { FaDiscord, FaGithubSquare, FaLinkedin } from "react-icons/fa";
-import { FiMail } from "react-icons/fi";
+} from './ContactElements';
+import {FaDiscord, FaGithubSquare, FaLinkedin} from 'react-icons/fa';
+import {FiMail} from 'react-icons/fi';
 
 const ContactSection = ({lightBg}) => {
   return (

@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 import {
   HeroBg,
   HeroContainer,
   HeroContent,
   HeroH1,
   HeroP,
-} from "./HeroElements";
+} from './HeroElements';
 
 const HeroSection = () => {
   return (
