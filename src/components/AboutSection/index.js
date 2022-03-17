@@ -1,26 +1,18 @@
 import React from 'react';
-import {
-  AboutContainer,
-  AboutHeading,
-  AboutP,
-  AboutRow,
-  AboutWrapper,
-  Column1,
-  Column2,
-  Img,
-} from './AboutElements';
+import {AboutRow, AboutWrapper, Column1, Column2, Img} from './AboutElements';
+import {SectionContainer, SectionHeading, SectionP} from '../SectionElements';
 
-const AboutSection = () => {
+const AboutSection = ({lightBg}) => {
   return (
-      <AboutContainer>
+      <SectionContainer lightBg={lightBg}>
         <AboutWrapper>
           <AboutRow>
             <Column1>
               <Img src={'/images/Lukas.JPG'} alt="Lukas"/>
             </Column1>
             <Column2>
-              <AboutHeading>About</AboutHeading>
-              <AboutP>
+              <SectionHeading lightBg={lightBg}>About</SectionHeading>
+              <SectionP lightBg={lightBg}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 dignissim purus suscipit lectus dictum dictum. Morbi porta
                 consequat risus, id auctor libero lacinia quis. Nullam dictum
@@ -31,11 +23,11 @@ const AboutSection = () => {
                 Vestibulum pretium eleifend diam. Praesent in ullamcorper diam.
                 Fusce non laoreet neque, eget placerat nunc. Ut sed interdum
                 leo.
-              </AboutP>
+              </SectionP>
             </Column2>
           </AboutRow>
         </AboutWrapper>
-      </AboutContainer>
+      </SectionContainer>
   );
 };
 
