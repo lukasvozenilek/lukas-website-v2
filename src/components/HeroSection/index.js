@@ -13,7 +13,10 @@ const HeroSection = () => {
       <HeroBg />
       <HeroContent>
         <HeroH1>Welcome To My Site!</HeroH1>
-        <HeroP>Lorum ipsum dolar sit amet</HeroP>
+        <HeroP>
+          Lorum ipsum dolar sit amet Lorum ipsum dolar sit amet Lorum ipsum
+          dolar sit amet
+        </HeroP>
       </HeroContent>
     </HeroContainer>
   );
